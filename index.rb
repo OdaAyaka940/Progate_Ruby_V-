@@ -18,3 +18,18 @@ puts food1.info
 
 # drink1に対してinfoメソッドを呼び出して戻り値を出力してください
 puts drink1.info
+
+#以下「インスタンス変数の追加」
+# food1.calorieに「700」を代入してください
+food1.calorie = 700
+
+# food1.calorieを出力してください
+puts food1.calorie
+
+# drink1.amountに「500」を代入してください
+drink1.amount = 500
+
+# drink1.amountを出力してください
+puts drink1.amount
+
+puts food1.calorie_info
