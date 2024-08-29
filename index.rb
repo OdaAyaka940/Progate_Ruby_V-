@@ -1,13 +1,12 @@
 require "./food"
 require "./drink"
 
-# Food.newの引数を書き換えてください
-food1 = Food.new(name: "ピザ", price: 800, calorie:700)
-food2 = Food.new(name: "すし", price: 1000, calorie:600)
-drink1 = Drink.new(name: "コーラ", price: 300)
-drink1.amount = 500
-drink2 = Drink.new(name: "お茶", price: 200)
-drink2.amount = 400
+puts "日曜限定100円割引セール実施中！"
+
+food1 = Food.new(name: "ピザ", price: 800, calorie: 700)
+food2 = Food.new(name: "すし", price: 1000, calorie: 600)
+drink1 = Drink.new(name: "コーラ", price: 300, amount: 500)
+drink2 = Drink.new(name: "お茶", price: 200, amount: 400)
 
 menus = [food1, food2, drink1, drink2]
 
